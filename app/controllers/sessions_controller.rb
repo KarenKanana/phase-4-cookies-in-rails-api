@@ -1,4 +1,5 @@
 class SessionsController < ApplicationController
+  byebug
   
   def index
     session[:session_hello] ||= "World"
